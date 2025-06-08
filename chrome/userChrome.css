@@ -1,0 +1,36 @@
+.titlebar-buttonbox-container {
+    margin-right: 16px !important;
+    margin-left: 32px !important;
+}
+
+#vertical-spacer {
+    display: none !important;
+    flex-grow: 0 !important;
+    width: 0px !important;
+}
+
+/**
+ * 调整非展开状态时，垂直标签栏的宽度
+ */
+:root {
+    --tab-collapsed-background-width: 34px !important;
+    --sidebar-launcher-collapsed-width: 34px  !important;
+    --tab-inner-inline-margin: 0px  !important;
+}
+
+#sidebar-main:not([sidebar-launcher-expanded]) {
+    width: 34px;
+}
+
+/**
+ * 垂直标签栏底部那几个按钮
+ */
+.tools-and-extensions > moz-button{
+    width: 34px !important;
+}
+
+.actions-list {
+  & > moz-button:not(.tools-overflow) {
+    --button-outer-padding-inline: 0px !important;
+  }
+}
