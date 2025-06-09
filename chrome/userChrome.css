@@ -1,3 +1,6 @@
+/**
+ * 调整右上角【最小化/最大化/关闭】按钮的位置，同时腾出一点空间用于移动窗口
+ */
 .titlebar-buttonbox-container {
     margin-right: 16px !important;
     margin-left: 32px !important;
@@ -13,9 +16,9 @@
  * 调整非展开状态时，垂直标签栏的宽度
  */
 :root {
-    --tab-collapsed-background-width: 34px !important;
-    --sidebar-launcher-collapsed-width: 34px  !important;
-    --tab-inner-inline-margin: 0px  !important;
+    --tab-collapsed-background-width: 32px !important;
+    --sidebar-launcher-collapsed-width: 32px  !important;
+    --tab-inner-inline-margin: 1px  !important;
 }
 
 #sidebar-main:not([sidebar-launcher-expanded]) {
@@ -31,6 +34,6 @@
 
 .actions-list {
   & > moz-button:not(.tools-overflow) {
-    --button-outer-padding-inline: 0px !important;
+    --button-outer-padding-inline: 1px !important;
   }
 }
