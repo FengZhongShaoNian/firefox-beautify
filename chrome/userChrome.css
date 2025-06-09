@@ -33,7 +33,14 @@
 }
 
 .actions-list {
-  & > moz-button:not(.tools-overflow) {
-    --button-outer-padding-inline: 1px !important;
-  }
+    & > moz-button:not(.tools-overflow) {
+        --button-outer-padding-inline: 1px !important;
+    }
+}
+
+/**
+ * 调整用于开关侧边栏的按钮在工具栏的位置
+ */
+#sidebar-button {
+    padding-left: 2px !important;
 }
