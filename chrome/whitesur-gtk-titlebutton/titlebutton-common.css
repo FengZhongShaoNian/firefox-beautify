@@ -1,0 +1,41 @@
+ .titlebar-buttonbox-container > .titlebar-buttonbox .titlebar-button {
+    width: 16px !important;
+    height: 16px !important;
+    margin-top: 12px !important;
+    margin-right: 12px !important;
+ }
+
+.titlebar-min {
+  order: env(-moz-gtk-csd-minimize-button-position);
+
+  > .toolbarbutton-icon {
+    background: transparent !important;
+  }
+}
+
+.titlebar-max {
+  order: env(-moz-gtk-csd-maximize-button-position);
+  > .toolbarbutton-icon {
+    background: transparent !important;
+  }
+}
+
+.titlebar-restore {
+  order: env(-moz-gtk-csd-maximize-button-position);
+  > .toolbarbutton-icon {
+    background: transparent !important;
+  }
+}
+
+.titlebar-close {
+  order: env(-moz-gtk-csd-close-button-position);
+
+  > .toolbarbutton-icon {
+    background: transparent !important;
+  }
+
+  @media not (-moz-gtk-csd-close-button) {
+    display: none;
+  }
+}
+

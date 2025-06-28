@@ -1,4 +1,12 @@
 /**
+ * 自定义最小化/最大化/关闭按钮，采用WhiteSur-gtk主题的图标
+ */
+@import "whitesur-gtk-titlebutton/titlebutton-common.css";
+@import "whitesur-gtk-titlebutton/titlebutton-dark.css";
+@import "whitesur-gtk-titlebutton/titlebutton-light.css";
+
+
+/**
  * 调整右上角【最小化/最大化/关闭】按钮的位置，同时腾出一点空间用于移动窗口
  */
 .titlebar-buttonbox-container {
